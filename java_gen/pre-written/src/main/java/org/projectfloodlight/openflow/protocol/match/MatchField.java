@@ -406,6 +406,9 @@ public class MatchField<F extends OFValueType<F>> {
     public final static MatchField<VFI> BSN_VFI =
             new MatchField<VFI>("bsn_vfi", MatchFields.BSN_VFI);
 
+    public final static MatchField<U16> OFDPA_MPLS_TYPE =
+            new MatchField<U16>("ofdpa_mpls_type", MatchFields.OFDPA_MPLS_TYPE);
+
     public String getName() {
         return name;
     }

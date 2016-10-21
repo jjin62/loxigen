@@ -925,7 +925,9 @@ exceptions = {
         'of_oxm_tun_gpe_flags' : { 'value' : u8obj },
         'of_oxm_tun_gpe_flags_masked' : { 'value' : u8obj, 'value_mask' : u8obj },
         'of_flow_stats_request' : { 'out_group' : of_group },
-        'of_flow_lightweight_stats_request' : { 'out_group' : of_group }
+        'of_flow_lightweight_stats_request' : { 'out_group' : of_group },
+
+        'of_oxm_ofdpa_mpls_type' : { 'value': u16obj },
 }
 
 
