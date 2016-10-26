@@ -10,7 +10,7 @@
 
     <groupId>org.onosproject</groupId>
     <artifactId>openflowj</artifactId>
-    <version>0.9.7.onos-SNAPSHOT</version>
+    <version>0.9.6.onosi-SNAPSHOT</version>
     <packaging>bundle</packaging>
 <!-- loxigen's version&package
     <version>3.0.0-SNAPSHOT</version>
